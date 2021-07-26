@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>Fitness&Gym</title>
+</head>
+<body>
+   <section class="header-2">
+       <nav>
+           <a href="index.html"><img src="/img/Logo-pro.png" alt="Logo-pro"></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+               <ul>
+                   <li><a href="index.html">Inicio</a></li>
+                   <li><a href="about.html">Sobre Nosotros</a></li>
+                   <li><a href=".sucursales">Cursos</a></li>
+                   <li><a href="sucursales.html">Sucursales</a></li>
+                   <li><a href="contact.html">Contacto</a></li>
+               </ul>
+           </div>
+           <i class="fas fa-bars" onclick="showMenu()"></i>
+       </nav>
+       <h1>Contacto</h1>
+   </section>
+
+   <!-- Contacto -->
+
+   <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13140.454178992784!2d-58.54620052072901!3d-34.5759934196888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb77160243783%3A0x5e21a2d3c0a65957!2sSan%20Mart%C3%ADn%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1627252741534!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+   </section>
+   <section class="contactanos">
+       <div class="row">
+           <div class="contact-col">
+               <div>
+                <i class="fas fa-home"></i>
+                <span>
+                    <h5>False Adress 2505.</h5>
+                    <p>San Martin Centro</p>
+                </span>
+               </div>
+               <div>
+                <i class="fas fa-phone-alt"></i>
+                <span>
+                    <h5>+54 9 1122562156</h5>
+                    <p>Lunes a Sábado de 9:00 a 22:00</p>
+                </span>
+               </div>
+               <div>
+                <i class="far fa-envelope"></i>
+                <span>
+                    <h5>info@gmail.com</h5>
+                    <p>Envíanos tu consulta por mail</p>
+                </span>
+               </div>
+           </div>
+           <div class="contact-col">
+               <form action="form-handler.php" method="POST">
+                   <input type="text" name="nombre" placeholder="Ingresa tu nombre" required>
+                   <input type="email" name="email" placeholder="Ingresa tu correo" required>
+                   <input type="text" name="tema" placeholder="Tema de consulta" required>
+                   <textarea rows="8" name="mensaje" placeholder="Mensaje" required> </textarea>
+                   <button type="submit" class="hero-btn red-btn"> Enviar</button>
+
+               </form>
+           </div>
+       </div>
+
+   </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+        <h4>Sobre Nosotros</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo repudiandae molestias rerum! Voluptatem omnis nihil tenetur <br> voluptatibus iusto neque, impedit quibusdam cupiditate.</p>
+        <div class="icons">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-whatsapp"></i>
+        </div>
+
+    </footer>
+
+
+   
+   <script src="/js/main.js"></script>
+    
+</body>
+</html>
