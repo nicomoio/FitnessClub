@@ -505,8 +505,13 @@ span{
      width: 100%;
  }
  @media(max-width: 700px){
-     .form-box{
-         position: fixed;
-         
-     }
+    .form-box{
+        width: 360px;
+        height: 480px;
+        position: relative;
+        margin-top: 15%;
+        background: white;
+        padding: 5px;
+        overflow: hidden;
  }
+}
