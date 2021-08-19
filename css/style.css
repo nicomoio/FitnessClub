@@ -506,8 +506,7 @@ span{
  }
  @media(max-width: 700px){
      .form-box{
-         height: 480px;
-         width: 350px;
+         position: fixed;
          
      }
  }
