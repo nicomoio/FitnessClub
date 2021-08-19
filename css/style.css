@@ -413,7 +413,7 @@ footer h4{
     width: 220px;
     margin: 35px auto;
     position: relative;
-    box-shadow: 0 0 20px 9px #ff61241f;
+    box-shadow: 0 0 20px 9px #35323f1f;
     border-radius: 30px;
 }
 .toggle-btn{
@@ -503,4 +503,11 @@ span{
  .login-img img{
      height: 100%;
      width: 100%;
+ }
+ @media(max-width: 700px){
+     .form-box{
+         height: 480px;
+         width: 350px;
+         
+     }
  }
