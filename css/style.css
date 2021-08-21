@@ -439,7 +439,7 @@ footer h4{
     margin: 30px auto;
     text-align: center;
 }
-.social-icons .fab{
+.social-icons .fab {
     width: auto;
     height: auto;
     background: linear-gradient(90deg, rgba(59,59,194,1) 0%, rgba(136,131,249,1) 100%);
@@ -481,7 +481,7 @@ footer h4{
 .check-box{
     margin: 30px 10px 30px 0;
 }
-span{
+.login-span{
     color: #777;
     font-size: 12px;
     bottom: 68px;
@@ -514,4 +514,19 @@ span{
         padding: 5px;
         overflow: hidden;
  }
+}
+.home-btn{
+    position: relative;
+    top: 260px;
+    left: 43%;
+}
+.home-btn .fas{
+    width: auto;
+    height: auto;
+    background: linear-gradient(90deg, rgba(59,59,194,1) 0%, rgba(136,131,249,1) 100%);
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
 }
